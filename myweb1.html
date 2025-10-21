@@ -6,12 +6,32 @@
     <title>Document</title>
 </head>
 <style>
+
     body{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+    .top-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 35px;
+    }
+
+    .top-left-box {
+      width: 45%;
+      max-width: 300px;
+      padding: 20px;
+      background-color: rgba(8, 233, 177, 0.8);
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      color: #299292;
+      text-decoration: cyan;
+      font-weight: bold;
+      text-decoration: underline;
+    }
     body{
-           
-     margin: 0;
+      margin: 0;
       padding: 0;
       height: 100vh;
       background-image: url('background.jpg'); 
@@ -37,7 +57,7 @@
       color: white;
       border-radius: 8px;
       position: absolute;
-      top: 200px; /* adjust this to move it below the top box */
+      top: 400px; /* adjust this to move it below the top box */
       left: 30px;
       box-shadow: 0 4px 8px rgba(54, 191, 196, 0.336);
 }
@@ -53,12 +73,28 @@
 </style>
 <body>
     <div class="top-box">
+
     <h2>سلام به وبسایت من خوش امدید</h2>
     <p>Welcome to my Website guys ill teach yall how to work with diffrent virtual machines and websites</p>
   </div>
+
    <div class="left-box">
+
     <p>گیم لوپ /Gameloop</p>
-    <a href="gamelopp.html" target="_blank">مشاهده ی اطلاعات برنامه</a>
+    <a href="gamelopp.html" target="">مشاهده ی اطلاعات برنامه</a>
+
+  </div>
+
+   <div class="top-container">
+    
+    <div class="top-left-box">
+      <a href="aboutus.html">درباره ی ما</a>
+    </div>
+
+    <div class="top-left-box">
+      <a href="rahertebaty.html">راه های ارتباطی با ما</a>
+    </div>
+
   </div>
 </body>
 </html>
